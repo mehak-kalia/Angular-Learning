@@ -6,10 +6,4 @@ describe('My First Test', () => {
   })
 })
 
-describe('NewsApi Test', () => {
-  it('Visits the initial project page', () => {
-    cy.visit('/home')
-    cy.contains('Application Name')
-    // cy.contains('phatakapp')
-  })
-})
+
