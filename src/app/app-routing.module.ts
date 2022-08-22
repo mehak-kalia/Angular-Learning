@@ -4,6 +4,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { GallaryComponent } from './gallary/gallary.component';
 import { HomeComponent } from './home/home.component';
+import { PhatakComponent } from './phatak/phatak.component';
 
 const routes: Routes = [
 
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'contact-us', component: ContactusComponent},
   {path: 'gallary', component: GallaryComponent},
-  {path: '**', redirectTo: 'home'},
+  {path: 'phatak', component: PhatakComponent},
+  {path: '**', redirectTo: 'phatak'},
 
 
 ];
